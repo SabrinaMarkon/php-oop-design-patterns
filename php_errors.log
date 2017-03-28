@@ -1,13 +1,88 @@
-[28-Mar-2017 05:35:14 UTC] PHP Warning:  The use statement with non-compound name 'Book' has no effect in /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php on line 8
-[28-Mar-2017 05:35:14 UTC] PHP Fatal error:  Class 'Book' not found in /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php on line 20
-[28-Mar-2017 05:35:14 UTC] PHP Stack trace:
-[28-Mar-2017 05:35:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:0
-[28-Mar-2017 05:35:37 UTC] PHP Fatal error:  Class 'Book' not found in /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php on line 20
-[28-Mar-2017 05:35:37 UTC] PHP Stack trace:
-[28-Mar-2017 05:35:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:0
-[28-Mar-2017 05:36:12 UTC] PHP Fatal error:  Class 'Book' not found in /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php on line 21
-[28-Mar-2017 05:36:12 UTC] PHP Stack trace:
-[28-Mar-2017 05:36:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:0
-[28-Mar-2017 05:36:43 UTC] PHP Fatal error:  Class 'adapter_pattern\Book' not found in /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php on line 21
-[28-Mar-2017 05:36:43 UTC] PHP Stack trace:
-[28-Mar-2017 05:36:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:0
+[28-Mar-2017 06:13:30 UTC] PHP Catchable fatal error:  Argument 1 passed to Person::read() must be an instance of BookInterface, instance of Book given, called in /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php on line 26 and defined in /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php on line 19
+[28-Mar-2017 06:13:30 UTC] PHP Stack trace:
+[28-Mar-2017 06:13:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:0
+[28-Mar-2017 06:13:30 UTC] PHP   2. Person->read() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:26
+[28-Mar-2017 06:37:29 UTC] PHP Warning:  Unterminated comment starting line 2 in /home/ubuntu/workspace/adapter_pattern/BookInterface.php on line 2
+[28-Mar-2017 06:37:29 UTC] PHP Stack trace:
+[28-Mar-2017 06:37:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:0
+[28-Mar-2017 06:37:29 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:26
+[28-Mar-2017 06:37:29 UTC] PHP   3. autoloader() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:26
+[28-Mar-2017 06:37:29 UTC] PHP   4. require() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:9
+[28-Mar-2017 06:37:29 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:6
+[28-Mar-2017 06:37:29 UTC] PHP   6. autoloader() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:6
+[28-Mar-2017 06:37:29 UTC] PHP Fatal error:  Class 'BookInterface' not found in /home/ubuntu/workspace/adapter_pattern/Book.php on line 6
+[28-Mar-2017 06:37:29 UTC] PHP Stack trace:
+[28-Mar-2017 06:37:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:0
+[28-Mar-2017 06:37:29 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:26
+[28-Mar-2017 06:37:29 UTC] PHP   3. autoloader() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:26
+[28-Mar-2017 06:37:29 UTC] PHP   4. require() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:9
+[28-Mar-2017 06:37:54 UTC] PHP Fatal error:  Class Book cannot extend from interface BookInterface in /home/ubuntu/workspace/adapter_pattern/Book.php on line 6
+[28-Mar-2017 06:37:54 UTC] PHP Stack trace:
+[28-Mar-2017 06:37:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:0
+[28-Mar-2017 06:37:54 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:26
+[28-Mar-2017 06:37:54 UTC] PHP   3. autoloader() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:26
+[28-Mar-2017 06:37:54 UTC] PHP   4. require() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:9
+[28-Mar-2017 06:41:30 UTC] PHP Fatal error:  Class Book cannot extend from interface BookInterface in /home/ubuntu/workspace/adapter_pattern/Book.php on line 0
+[28-Mar-2017 06:41:30 UTC] PHP Stack trace:
+[28-Mar-2017 06:41:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:0
+[28-Mar-2017 06:41:30 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:28
+[28-Mar-2017 06:41:30 UTC] PHP   3. autoloader() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:28
+[28-Mar-2017 06:43:50 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php on line 13
+[28-Mar-2017 07:01:22 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php on line 13
+[28-Mar-2017 07:01:39 UTC] PHP Fatal error:  Uncaught exception 'LogicException' with message 'Function 'sabrina_autoloader' not found (function 'sabrina_autoloader' not found or invalid function name)' in /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php(13): spl_autoload_register('sabrina_autoloa...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php on line 13
+[28-Mar-2017 07:02:03 UTC] PHP Fatal error:  Uncaught exception 'LogicException' with message 'Function 'autoloader' not found (function 'autoloader' not found or invalid function name)' in /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php(13): spl_autoload_register('autoloader')
+#1 {main}
+  thrown in /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php on line 13
+[28-Mar-2017 07:02:26 UTC] PHP Fatal error:  Uncaught exception 'LogicException' with message 'Function 'autoloader' not found (function 'autoloader' not found or invalid function name)' in /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php(13): spl_autoload_register('autoloader')
+#1 {main}
+  thrown in /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php on line 13
+[28-Mar-2017 07:03:24 UTC] PHP Warning:  require(adapter_pattern\Book.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php on line 11
+[28-Mar-2017 07:03:24 UTC] PHP Stack trace:
+[28-Mar-2017 07:03:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:0
+[28-Mar-2017 07:03:24 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:28
+[28-Mar-2017 07:03:24 UTC] PHP   3. adapter_pattern\autoloader() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:28
+[28-Mar-2017 07:03:24 UTC] PHP Fatal error:  require(): Failed opening required 'adapter_pattern\Book.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php on line 11
+[28-Mar-2017 07:03:24 UTC] PHP Stack trace:
+[28-Mar-2017 07:03:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:0
+[28-Mar-2017 07:03:24 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:28
+[28-Mar-2017 07:03:24 UTC] PHP   3. adapter_pattern\autoloader() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:28
+[28-Mar-2017 07:03:38 UTC] PHP Catchable fatal error:  Argument 1 passed to Person::read() must implement interface BookInterface, instance of Kindle given, called in /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php on line 28 and defined in /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php on line 19
+[28-Mar-2017 07:03:38 UTC] PHP Stack trace:
+[28-Mar-2017 07:03:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:0
+[28-Mar-2017 07:03:38 UTC] PHP   2. Person->read() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:28
+[28-Mar-2017 07:58:01 UTC] PHP Catchable fatal error:  Argument 1 passed to KindleAdapter::__construct() must be an instance of Kindle, none given, called in /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php on line 34 and defined in /home/ubuntu/workspace/adapter_pattern/KindleAdapter.php on line 14
+[28-Mar-2017 07:58:01 UTC] PHP Stack trace:
+[28-Mar-2017 07:58:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:0
+[28-Mar-2017 07:58:01 UTC] PHP   2. KindleAdapter->__construct() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:34
+[28-Mar-2017 07:59:05 UTC] PHP Catchable fatal error:  Argument 1 passed to Person::read() must implement interface BookInterface, instance of Kindle given, called in /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php on line 34 and defined in /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php on line 20
+[28-Mar-2017 07:59:05 UTC] PHP Stack trace:
+[28-Mar-2017 07:59:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:0
+[28-Mar-2017 07:59:05 UTC] PHP   2. Person->read() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:34
+[28-Mar-2017 08:05:40 UTC] PHP Warning:  require(eReaderAdapter.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php on line 10
+[28-Mar-2017 08:05:40 UTC] PHP Stack trace:
+[28-Mar-2017 08:05:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:0
+[28-Mar-2017 08:05:40 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:35
+[28-Mar-2017 08:05:40 UTC] PHP   3. autoloader() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:35
+[28-Mar-2017 08:05:40 UTC] PHP Fatal error:  require(): Failed opening required 'eReaderAdapter.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php on line 10
+[28-Mar-2017 08:05:40 UTC] PHP Stack trace:
+[28-Mar-2017 08:05:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:0
+[28-Mar-2017 08:05:40 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:35
+[28-Mar-2017 08:05:40 UTC] PHP   3. autoloader() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:35
+[28-Mar-2017 08:06:19 UTC] PHP Warning:  require(eReaderAdapter.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php on line 10
+[28-Mar-2017 08:06:19 UTC] PHP Stack trace:
+[28-Mar-2017 08:06:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:0
+[28-Mar-2017 08:06:19 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:35
+[28-Mar-2017 08:06:19 UTC] PHP   3. autoloader() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:35
+[28-Mar-2017 08:06:19 UTC] PHP Fatal error:  require(): Failed opening required 'eReaderAdapter.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php on line 10
+[28-Mar-2017 08:06:19 UTC] PHP Stack trace:
+[28-Mar-2017 08:06:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:0
+[28-Mar-2017 08:06:19 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:35
+[28-Mar-2017 08:06:19 UTC] PHP   3. autoloader() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:35

@@ -1,18 +1,16 @@
 <?php
 /**
- * Book example for Adapter Design Pattern. 
+ * Book vs eReader example for Adapter Design Pattern. 
  */
  
-namespace adapter_pattern;
-  
- class Book {
+ class Book implements BookInterface {
      
      public function open() {
-         var_dump('opening the PAPER book');
+         print('<br>opening the PAPER book');
      }
      
      public function turnPage() {
-         var_dump('turning the page of the PAPER book');
+         print('<br>turning the page of the PAPER book');
      }
      
  }
