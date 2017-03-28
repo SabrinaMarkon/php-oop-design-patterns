@@ -1,6 +1,6 @@
 <?php
 /**
- * Simple example of PHP Decorator Pattern: 
+ * Simple example of PHP Decorator Design Pattern: 
  * - Automotive Service Example but might work for shopping carts or other
  * systems where items are randomly added to a collection that has a base item
  * always included.
