@@ -3,7 +3,6 @@
  * Simple example of PHP Adapter Design Pattern:
  * "An adapter allows us to convert (translate) one interface for use with another" (Jeffrey Way)
  * We are creating a class to allow two different interfaces to communicate.
- 
  */
 
 function autoloader($class) {

@@ -86,3 +86,32 @@ Stack trace:
 [28-Mar-2017 08:06:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:0
 [28-Mar-2017 08:06:19 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:35
 [28-Mar-2017 08:06:19 UTC] PHP   3. autoloader() /home/ubuntu/workspace/adapter_pattern/adapter_pattern.php:35
+[31-Mar-2017 13:08:27 UTC] PHP Warning:  require(/src/Sub.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/template_method_pattern/index.php on line 16
+[31-Mar-2017 13:08:27 UTC] PHP Stack trace:
+[31-Mar-2017 13:08:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/template_method_pattern/index.php:0
+[31-Mar-2017 13:08:27 UTC] PHP Fatal error:  require(): Failed opening required '/src/Sub.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/template_method_pattern/index.php on line 16
+[31-Mar-2017 13:08:27 UTC] PHP Stack trace:
+[31-Mar-2017 13:08:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/template_method_pattern/index.php:0
+[31-Mar-2017 13:09:10 UTC] PHP Warning:  require(src/App\Sub.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/template_method_pattern/index.php on line 12
+[31-Mar-2017 13:09:10 UTC] PHP Stack trace:
+[31-Mar-2017 13:09:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/template_method_pattern/index.php:0
+[31-Mar-2017 13:09:10 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/template_method_pattern/index.php:16
+[31-Mar-2017 13:09:10 UTC] PHP   3. autoloader() /home/ubuntu/workspace/template_method_pattern/index.php:16
+[31-Mar-2017 13:09:10 UTC] PHP   4. require() /home/ubuntu/workspace/template_method_pattern/index.php:12
+[31-Mar-2017 13:09:10 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/template_method_pattern/index.php:3
+[31-Mar-2017 13:09:10 UTC] PHP   6. autoloader() /home/ubuntu/workspace/template_method_pattern/index.php:3
+[31-Mar-2017 13:09:10 UTC] PHP Fatal error:  require(): Failed opening required 'src/App\Sub.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/template_method_pattern/index.php on line 12
+[31-Mar-2017 13:09:10 UTC] PHP Stack trace:
+[31-Mar-2017 13:09:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/template_method_pattern/index.php:0
+[31-Mar-2017 13:09:10 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/template_method_pattern/index.php:16
+[31-Mar-2017 13:09:10 UTC] PHP   3. autoloader() /home/ubuntu/workspace/template_method_pattern/index.php:16
+[31-Mar-2017 13:09:10 UTC] PHP   4. require() /home/ubuntu/workspace/template_method_pattern/index.php:12
+[31-Mar-2017 13:09:10 UTC] PHP   5. spl_autoload_call() /home/ubuntu/workspace/template_method_pattern/index.php:3
+[31-Mar-2017 13:09:10 UTC] PHP   6. autoloader() /home/ubuntu/workspace/template_method_pattern/index.php:3
+[31-Mar-2017 13:10:08 UTC] PHP Catchable fatal error:  Object of class TurkeySub could not be converted to string in /home/ubuntu/workspace/template_method_pattern/index.php on line 16
+[31-Mar-2017 13:10:08 UTC] PHP Stack trace:
+[31-Mar-2017 13:10:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/template_method_pattern/index.php:0
+[31-Mar-2017 13:10:46 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/template_method_pattern/index.php on line 16
+[31-Mar-2017 13:21:33 UTC] PHP Fatal error:  Call to protected method Sub::make() from context '' in /home/ubuntu/workspace/template_method_pattern/index.php on line 17
+[31-Mar-2017 13:21:33 UTC] PHP Stack trace:
+[31-Mar-2017 13:21:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/template_method_pattern/index.php:0
