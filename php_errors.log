@@ -115,3 +115,18 @@ Stack trace:
 [31-Mar-2017 13:21:33 UTC] PHP Fatal error:  Call to protected method Sub::make() from context '' in /home/ubuntu/workspace/template_method_pattern/index.php on line 17
 [31-Mar-2017 13:21:33 UTC] PHP Stack trace:
 [31-Mar-2017 13:21:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/template_method_pattern/index.php:0
+[09-Apr-2017 10:53:25 UTC] PHP Fatal error:  Class Locks contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (HomeChecker::chck) in /home/ubuntu/workspace/chain_of_responsibility_pattern/index.php on line 44
+[09-Apr-2017 10:56:20 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'The lights were left on! Abort.' in /home/ubuntu/workspace/chain_of_responsibility_pattern/index.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/chain_of_responsibility_pattern/index.php(30): Lights->check(Object(HomeStatus))
+#1 /home/ubuntu/workspace/chain_of_responsibility_pattern/index.php(42): HomeChecker->next(Object(HomeStatus))
+#2 /home/ubuntu/workspace/chain_of_responsibility_pattern/index.php(93): Locks->check(Object(HomeStatus))
+#3 {main}
+  thrown in /home/ubuntu/workspace/chain_of_responsibility_pattern/index.php on line 49
+[09-Apr-2017 10:56:33 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'The lights were left on! Abort.' in /home/ubuntu/workspace/chain_of_responsibility_pattern/index.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/chain_of_responsibility_pattern/index.php(30): Lights->check(Object(HomeStatus))
+#1 /home/ubuntu/workspace/chain_of_responsibility_pattern/index.php(42): HomeChecker->next(Object(HomeStatus))
+#2 /home/ubuntu/workspace/chain_of_responsibility_pattern/index.php(93): Locks->check(Object(HomeStatus))
+#3 {main}
+  thrown in /home/ubuntu/workspace/chain_of_responsibility_pattern/index.php on line 49

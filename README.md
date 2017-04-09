@@ -9,4 +9,5 @@ PHP Design Patterns:
 2. The Adapter Pattern - /adapter_pattern - We create a class to allow two different INTERFACES to communicate, such as pairing up two different kinds of technology.
 3. The Template Method Pattern - /template_method_pattern - When we are worried about CODE DUPLICATION between classes. Put the code that would be duplicated into an ABSTRACT CLASS, then just put specific differences in subclasses.
 4. The Strategy Pattern - /strategy_pattern - Multiple ways to execute a particular strategy, such as using an interface for multiple classes so different ones can be swapped out at run time. We force them to be interchangeablew with the common interface.
-5. 
+5. The Chain of Responsibility Pattern - /chain_of_responsibility_pattern - We need multiple things to happen, using a class for each, where after one is found to be right, we go on to the next. This works like middleware in Laravel. Every class can handle the request (by having the abstract method).
+6. 

@@ -11,11 +11,6 @@
  * We force the classes to be interchangeablew with the common interface.
  */
 
-function autoloader($class) {
-	require "src/" . $class . ".php";
-}
-spl_autoload_register("autoloader");
-
 
 // Encapsulate and make the classes INTERCHANGEABLE:
 interface Logger {
